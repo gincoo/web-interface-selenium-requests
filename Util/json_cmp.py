@@ -1,14 +1,16 @@
-#coding=utf-8
+# coding=utf-8
 import sys
 import os
 import configparser
+
 base_path = os.getcwd()
 sys.path.append(base_path)
 from Util.handle_json import get_value
 import json_tools
 import json
 
-def cmp(src_data,dst_data):
+
+def cmp(src_data, dst_data):
     if isinstance(src_data, dict):
         """若为dict格式"""
         for key in dst_data:
@@ -31,7 +33,9 @@ def cmp(src_data,dst_data):
     else:
         if str(src_data) != str(dst_data):
             print(src_data)
-        
+
+
 dict1 = get_value("api3/newcourseskill")
 dict2 = get_value("api3/getbanneradvertver2")
-cmp(dict1,dict2)
+
+cmp(dict1, dict2)

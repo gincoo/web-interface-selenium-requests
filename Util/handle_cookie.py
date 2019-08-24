@@ -1,12 +1,11 @@
-#coding=utf-8
-import sys
-import os
-import configparser
-base_path = os.getcwd()
-sys.path.append(base_path)
-import json
+# coding=utf-8
+# import sys
+# import os
+# base_path = os.getcwd()
+# sys.path.append(base_path)
 
-from Util.handle_json import get_value,read_json,write_value
+from Util.handle_json import get_value, read_json, write_value
+
 
 def get_cookie_value(cookie_key):
     '''
@@ -16,7 +15,7 @@ def get_cookie_value(cookie_key):
     return data[cookie_key]
 
 
-def write_cookie(data,cookie_key):
+def write_cookie(data, cookie_key):
     '''
     写入cookie
     '''
@@ -27,7 +26,6 @@ def write_cookie(data,cookie_key):
 
 if __name__ == "__main__":
     data = {
-        "aaaa":"1111111111111111"
+        "aaaa": "1111111111111111"
     }
-    print(write_cookie(data,'web'))
-
+    print(write_cookie(data, 'web'))

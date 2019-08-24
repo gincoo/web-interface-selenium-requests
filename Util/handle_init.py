@@ -16,9 +16,12 @@ class HandleInit:
         return cf
 
     def get_value(self, key, node=None):
-        '''
-        获取ini里面的value
-        '''
+        """
+        获取.ini 文件里面的value
+        :param key: 对应节点下的key
+        :param node: 对应节点
+        :return:
+        """
         if node == None:
             node = 'server'
         cf = self.load_ini()

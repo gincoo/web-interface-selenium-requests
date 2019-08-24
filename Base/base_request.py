@@ -1,14 +1,18 @@
 #coding=utf-8
 import sys
 import os
-base_path = os.getcwd()
-sys.path.append(base_path)
+# base_path = os.path.dirname(os.getcwd())
+# sys.path.append(base_path)
 import requests
 import json
 from Util.handle_cookie import write_cookie
 from Util.handle_init import handle_ini
 
+# 基础接口请求封装类
+# 使用的三方 requests 框架
+#
 class BaseRequest:
+
     def send_post(self,url,data,cookie=None,get_cookie=None,header=None):
         '''
         发送post请求
