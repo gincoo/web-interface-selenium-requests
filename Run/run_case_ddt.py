@@ -64,7 +64,9 @@ class TestRunCaseDdt(unittest.TestCase):
                 if is_header == 'yes':
                     header = get_header()
 
+                #---->发起请求
                 res = request.run_main(method, url, data1, cookie, get_cookie, header)
+                #---->结果
                 # print(res)
                 code = str(res['errorCode'])
                 message = res['errorDesc']
