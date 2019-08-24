@@ -9,6 +9,9 @@ sys.path.append(base_path)
 
 class HandleInit:
 
+    def __init__(self):
+        pass
+
     def load_ini(self):
         file_path = base_path + "/Config/server.ini"
         cf = configparser.ConfigParser()

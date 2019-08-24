@@ -4,24 +4,28 @@
 # base_path = os.getcwd()
 # sys.path.append(base_path)
 
-from Util.handle_json import get_value, read_json, write_value
+from Util.handle_json import HandleJson
 
 
 def get_cookie_value(cookie_key):
-    '''
+    """
     获取cookie
-    '''
-    data = read_json("/Config/cookie.json")
+    :param cookie_key:
+    :return: 返回cookie
+    """
+    data = HandleJson().read_json("/Config/cookie.json")
     return data[cookie_key]
 
 
 def write_cookie(data, cookie_key):
-    '''
+    """
     写入cookie
-    '''
-    data1 = read_json("/Config/cookie.json")
+    :param data: 写入的cookie 内容
+    :param cookie_key: cookie key
+    """
+    data1 = HandleJson().read_json("/Config/cookie.json")
     data1[cookie_key] = data
-    write_value(data1)
+    HandleJson().write_value(data1)
 
 
 if __name__ == "__main__":
