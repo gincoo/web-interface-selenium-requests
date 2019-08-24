@@ -7,6 +7,7 @@ sys.path.append(base_path)
 from Util.handle_json import get_value
 import json_tools
 import json
+
 def cmp(src_data,dst_data):
     if isinstance(src_data, dict):
         """若为dict格式"""

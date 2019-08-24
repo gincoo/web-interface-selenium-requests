@@ -1,16 +1,18 @@
 #coding=utf-8
 import sys
 import os
-base_path = os.getcwd()
-sys.path.append(base_path)
 import ddt
 import unittest
 from Util.handle_excel import excel_data
+
+base_path = os.getcwd()
+sys.path.append(base_path)
 data = excel_data.get_excel_data()
 #data = [[1,2,3,4,5],[2,3,4,5,6],[3,4,5,6,7],[4,5,6,7,8]]
 
 @ddt.ddt
 class TestCase01(unittest.TestCase):
+
     def setUp(self):
         print("case开始执行")
     

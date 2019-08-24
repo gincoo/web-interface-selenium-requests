@@ -1,10 +1,11 @@
 #coding=utf-8
-import sys
+# import sys
 import os
 #sys.path.append("E:/www/ImoocInterface/")
 import unittest
 case_path = os.getcwd()+"/UnittestCase/"
 print(case_path)
+
 '''
 from UnittestCase.test_case01 import TestCase01
 from UnittestCase.test_case02 import TestCase02

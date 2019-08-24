@@ -1,6 +1,7 @@
 #coding=utf-8
 import requests
 import json
+
 url = 'https://www.imooc.com/apiw/logo?callback=jQuery2100784114534733817_1560664870423&_=1560664870424'
 data = {
     'v':'5.1.2',
@@ -31,7 +32,6 @@ try:
     print("----------->",type(res))
 except:
     print("解析失败")
-
     #print(res_text)
     print("-------------------------------------------")
     print(res)

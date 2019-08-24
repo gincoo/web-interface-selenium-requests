@@ -1,16 +1,16 @@
-#coding=utf-8
-#selenium web
+# coding=utf-8
+# selenium web
 import requests
-import json
 import time
 from selenium import webdriver
+
 cookie1 = {
-    "apsid":""
+    "apsid": ""
 }
 driver = webdriver.Chrome()
 driver.get("https://www.imooc.com/user/newlogin")
 time.sleep(4)
-#driver.find_element_by_id("js-signin-btn").click()
+# driver.find_element_by_id("js-signin-btn").click()
 time.sleep(3)
 driver.find_element_by_name("email").send_keys("mushishi_xu@163.com")
 driver.find_element_by_name("password").send_keys("xu221168")
@@ -25,8 +25,8 @@ driver.close()
 
 download_url = 'https://www.imooc.com/user/postpic'
 file = {
-    "fileField":("test.jpg",open("E:/ytxu/test.jpg","rb"),"image/jpg"),
-    "type":"1"
+    "fileField": ("test.jpg", open("E:/ytxu/test.jpg", "rb"), "image/jpg"),
+    "type": "1"
 }
-res = requests.post(url=download_url,files=file,cookies=cookie1,verify=False).text
+res = requests.post(url=download_url, files=file, cookies=cookie1, verify=False).text
 print(res)
