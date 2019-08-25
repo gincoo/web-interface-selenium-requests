@@ -5,7 +5,7 @@ import os
 # sys.path.append(base_path)
 import requests
 import json
-from Util.handle_cookie import write_cookie
+from Util.handle_cookie import HandleCookie
 from Util.handle_init import handle_ini
 
 
@@ -31,7 +31,7 @@ class BaseRequest:
             '''
             cookie_value_jar = response.cookies
             cookie_value = requests.utils.dict_from_cookiejar(cookie_value_jar)
-            write_cookie(cookie_value, get_cookie['is_cookie'])
+            HandleCookie().write_cookie(cookie_value, get_cookie['is_cookie'])
         res = response.text
         return res
 
@@ -49,7 +49,7 @@ class BaseRequest:
         if get_cookie != None:
             cookie_value_jar = response.cookies
             cookie_value = requests.utils.dict_from_cookiejar(cookie_value_jar)
-            write_cookie(cookie_value, get_cookie['is_cookie'])
+            HandleCookie().write_cookie(cookie_value, get_cookie['is_cookie'])
         res = response.text
         return res
 

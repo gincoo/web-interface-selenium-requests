@@ -8,9 +8,10 @@ md5 = hashlib.md5()
 data = str({
     'user': '11111'
 })
-md5.update(data.encode('utf-8'))
+md5.update(data.encode('utf-8'))# data 数据加密
 res1 = md5.hexdigest()
 print(res1)
+
 header = {
     'Host': 'm.imooc.com',
     'Connection': 'keep-alive',

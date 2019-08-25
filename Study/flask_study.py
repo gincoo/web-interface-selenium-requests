@@ -7,7 +7,7 @@ base_path = os.getcwd()
 sys.path.append(base_path)
 from flask import Flask
 from flask import request
-from Util.handle_json import write_value, read_json
+from Util.handle_json import HandleJson
 
 app = Flask(__name__)
 
@@ -18,7 +18,6 @@ def Home():
         "username": "Mushishi_xu",
         "password": "111111"
     })
-
     return data
 
 
@@ -27,7 +26,6 @@ def Login():
     username = request.args.get("username")
     password = request.args.get("password")
     if username and password:
-
         data = json.dumps({
             "username": username,
             "password": password,
@@ -39,7 +37,6 @@ def Login():
         data = json.dumps({
             "message": "请传递参数"
         })
-
     return data
 
 
@@ -55,7 +52,7 @@ def mock_data():
     return_data = {
         "message": None
     }
-    mock_data = read_json()
+    mock_data = HandleJson().read_json()
     url = request.form.get("url")
     data = request.form.get("data")
     try:
@@ -66,7 +63,7 @@ def mock_data():
         return json.dumps(return_data)
     try:
         print("--->", mock_data)
-        write_value(mock_data, file_name="/Config/user_data.json")
+        HandleJson().write_value(mock_data, file_name="/Config/user_data.json")
     except Exception:
         return_data['message'] = "写入数据失败"
         json.dumps(return_data)
