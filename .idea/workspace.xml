@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d129725d-0536-4131-b76c-ea1ce2904f4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/base_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mock/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mock/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/run_case_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run/run_case_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run/run_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/test_run_ddt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run/test_run_ddt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/cookie_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/cookie_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/flask_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/flask_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/header_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/header_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/mock_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/mock_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnittestCase/test_case01.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnittestCase/test_case01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/handle_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/handle_cookie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/handle_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/handle_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/handle_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/handle_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/one_day.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/one_day.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/session_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/session_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/stutas_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/stutas_study.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,24 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Run/run_case_ddt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="134" column="12" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Run/test_run_ddt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/cookie_study.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +41,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/mock_study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="90">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/one_day.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/reqeust_response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Study/session_study.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="38" column="7" selection-start-line="38" selection-end-line="38" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Study/stutas_study.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -94,24 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
               <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnittestCase/test_case01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Run/run_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-710">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -135,11 +123,11 @@
       <find>get_cookie_value</find>
       <find>get_header</find>
       <find>getarr</find>
-      <find>cookie1</find>
       <find>value</find>
       <find>apsid</find>
       <find>md5</find>
       <find>discover</find>
+      <find>cookie1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,8 +137,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Study/reqeust_response.py" />
-        <option value="$PROJECT_DIR$/Study/session_study.py" />
-        <option value="$PROJECT_DIR$/Study/stutas_study.py" />
         <option value="$PROJECT_DIR$/Study/test_case_ddt.py" />
         <option value="$PROJECT_DIR$/Study/two_day.py" />
         <option value="$PROJECT_DIR$/UnittestCase/runcase.py" />
@@ -184,6 +170,9 @@
         <option value="$PROJECT_DIR$/Study/header_study.py" />
         <option value="$PROJECT_DIR$/Mock/config.json" />
         <option value="$PROJECT_DIR$/Study/mock_study.py" />
+        <option value="$PROJECT_DIR$/Study/one_day.py" />
+        <option value="$PROJECT_DIR$/Study/session_study.py" />
+        <option value="$PROJECT_DIR$/Study/stutas_study.py" />
       </list>
     </option>
   </component>
@@ -291,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for mock_study.TestLogin">
+  <component name="RunManager" selected="Python.stutas_study">
     <configuration name="cookie_study" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="interface-seleium-requsets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,6 +347,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stutas_study" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interface-seleium-requsets" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/stutas_study.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for mock_study.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interface-seleium-requsets" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,9 +389,11 @@
       <item itemvalue="Python.flask_study" />
       <item itemvalue="Python.header_study" />
       <item itemvalue="Python tests.Unittests for mock_study.TestLogin" />
+      <item itemvalue="Python.stutas_study" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stutas_study" />
         <item itemvalue="Python tests.Unittests for mock_study.TestLogin" />
         <item itemvalue="Python.header_study" />
         <item itemvalue="Python.flask_study" />
@@ -400,7 +413,7 @@
       <updated>1566617676426</updated>
       <workItem from="1566617677956" duration="6350000" />
       <workItem from="1566657593609" duration="7735000" />
-      <workItem from="1566710420677" duration="7721000" />
+      <workItem from="1566710420677" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1566618168527</created>
@@ -430,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566664443584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1566718190403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566718190403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -452,9 +472,12 @@
     <history-entry file="Unittests_in_mock_study_py - 2019.08.25 at 15h 20m 23s.xml">
       <configuration name="Unittests in mock_study.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_mock_study_TestLogin - 2019.08.25 at 15h 29m 13s.xml">
+      <configuration name="Unittests for mock_study.TestLogin" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21806000" />
+    <option name="totallyTimeSpent" value="22236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
@@ -465,7 +488,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43926555" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43926555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,6 +556,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$cookie_study.coverage" NAME="cookie_study Coverage Results" MODIFIED="1566714569903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$flask_study.coverage" NAME="flask_study Coverage Results" MODIFIED="1566716536383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
+    <SUITE FILE_PATH="coverage/interface_seleium_requsets$stutas_study.coverage" NAME="stutas_study Coverage Results" MODIFIED="1566718567401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$Unittests_in_test_case01_py.coverage" NAME="Unittests in test_case01.py Coverage Results" MODIFIED="1566713573340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UnittestCase" />
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$Unittests_for_mock_study_TestLogin.coverage" NAME="Unittests for mock_study.TestLogin Coverage Results" MODIFIED="1566718152433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$header_study.coverage" NAME="header_study Coverage Results" MODIFIED="1566716907698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
@@ -540,27 +564,6 @@
     <SUITE FILE_PATH="coverage/interface_seleium_requsets$Unittests_in_mock_study_py.coverage" NAME="Unittests in mock_study.py Coverage Results" MODIFIED="1566717620261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/reqeust_response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/session_study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/stutas_study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/test_case_ddt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -627,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/one_day.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -853,10 +849,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/one_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Study/mock_study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/reqeust_response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/session_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="38" column="7" selection-start-line="38" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/stutas_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="84" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
         </state>
       </provider>
     </entry>

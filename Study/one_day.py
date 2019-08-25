@@ -15,8 +15,10 @@ data = {
     'uid':'7213561',
     'type':'0'
 }
+
 res_text = requests.get(get_url,verify=False).text
 print(res_text)
+
 #res = requests.post(url,data,verify=False)
 #json_res = res.json()
 #print(json.dumps(json_res,indent=4,ensure_ascii=False))

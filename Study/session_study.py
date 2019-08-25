@@ -11,6 +11,7 @@ cookie1 = {
 
 opt = webdriver.ChromeOptions()
 opt.set_headless()
+
 driver = webdriver.Chrome(options=opt)
 driver.get("https://www.imooc.com/user/newlogin")
 
@@ -34,7 +35,9 @@ driver.close()
 
 cookie_jar = requests.utils.cookiejar_from_dict(cookie1)
 print("-------->",cookie_jar)
+
 session = requests.Session()
+
 session.cookies = cookie_jar
 
 #登陆
