@@ -5,10 +5,13 @@ import os
 base_path = os.getcwd()
 sys.path.append(base_path)
 from mitmproxy import http
-from Util.handle_json import get_value
+from Util.handle_json import HandleJson
 import json
 
 
+#
+# mock 桩服务
+#
 class MockServer:
 
     def request(self, flow):
@@ -27,7 +30,7 @@ class MockServer:
             url = host[1]
             if "?" in host[1]:
                 url = url.split("?")[0]
-            data = json.dumps(get_value(url))
+            data = json.dumps(HandleJson().get_value(key=url))
             response_data.set_text(data)
 
 

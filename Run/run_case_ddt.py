@@ -11,7 +11,7 @@ from Util.handle_excel import excel_data
 from Util.handle_header import HandleHeader
 from Util.handle_result import HandleResult
 from Util.handle_cookie import HandleCookie
-from Util.codition_data import get_data
+from Util.handle_data import HandleData
 from Base.base_request import request
 import HTMLTestRunner
 
@@ -44,7 +44,7 @@ class TestRunCaseDdt(unittest.TestCase):
                     获取依赖数据
                     """
                     depend_key = data[4]  # 依赖key
-                    depend_data = get_data(is_depend)
+                    depend_data = HandleData.get_data(is_depend)
                     # print(depend_data)
                     data1[depend_key] = depend_data
 

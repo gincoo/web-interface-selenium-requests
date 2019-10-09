@@ -18,6 +18,9 @@ from Util.handle_json import HandleJson
 """
 
 
+#
+# 返回结果操作类
+#
 class HandleResult:
 
     def handle_result(self, url, code):
@@ -35,6 +38,7 @@ class HandleResult:
                     return message
         return None
 
+
     def get_result_json(self, url, status):
         """
         获取result.json 文件中,对应url(key)的值
@@ -49,6 +53,7 @@ class HandleResult:
                 if message:
                     return message
         return None
+
 
     def handle_result_json(self, dict1, dict2):
         """
@@ -74,4 +79,4 @@ if __name__ == "__main__":
 
     # print(handle_result('api3/getbanneradvertver2',"10002"))
     # print(handle_result_json(dict1,dict2))
-    print(get_result_json("api3/newcourseskill", "error"))
+    print(HandleResult.get_result_json("api3/newcourseskill", "error"))
